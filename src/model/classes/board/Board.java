@@ -11,7 +11,6 @@ public class Board {
     public List<Tile> get_boardTiles() { return _boardTiles; }
     public void set_boardTiles(List<Tile> _boardTiles) { this._boardTiles = _boardTiles; }
 
-
     public Board() {
         this._boardTiles = TileFactory.CreateBoardTiles();
     }
