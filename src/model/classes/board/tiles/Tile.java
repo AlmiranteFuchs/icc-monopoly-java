@@ -19,5 +19,11 @@ public abstract class Tile implements TileBehaviour {
     public List<Player> get_playersOnTile() { return _playersOnTile; }
     public void set_playersOnTile(List<Player> _playersOnTile) { this._playersOnTile = _playersOnTile; }
 
+    public Tile(String tileName, short tileNumber, List<Player> playersOnTile){
+        this._tileName = tileName;
+        this._tileNumber = tileNumber;
+        this._playersOnTile = playersOnTile;
+    }
+
 }
 

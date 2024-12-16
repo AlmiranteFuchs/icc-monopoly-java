@@ -13,6 +13,12 @@ public class PlayerFactory {
         Player player3 = new Player("Efiye");
         Player player4 = new Player("John Pork");
 
-        return new ArrayList<>(Arrays.asList(player1, player2, player3, player4));
+        List<Player> players = new ArrayList<>();
+        players.add(player1);
+        players.add(player2);
+        players.add(player3);
+        players.add(player4);
+
+        return players;
     }
 }

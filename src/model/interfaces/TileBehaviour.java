@@ -1,5 +1,8 @@
 package model.interfaces;
 
+import model.classes.game.GameManagerModel;
+import model.classes.players.Player;
+
 public interface TileBehaviour {
-    void TriggerTileAction();   // TODO: add gameManager reference
+    void TriggerTileAction(GameManagerModel gameReference);
 }

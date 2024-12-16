@@ -1,8 +1,10 @@
-import view.GameManagerView;
+import controller.GameManagerController;
+
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        GameManagerView gameManagerView = new GameManagerView();
-        gameManagerView.run();
+    public static void main(String[] args) throws IOException {
+        GameManagerController gameManagerController = new GameManagerController();
+        gameManagerController.run();
     }
 }
